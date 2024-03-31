@@ -164,7 +164,9 @@ footer .container{
     border-top: 2px solid rgb(141, 135, 135);
     text-align: center;
 }
-
+.derechos-autor p{
+    margin-top: 15px;
+}
 /* responsive */
 
 @media screen and (max-width: 768px){
