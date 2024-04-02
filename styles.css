@@ -19,17 +19,25 @@ header{
 }
 header .container{
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    
 }
 .header-logo img{
     width: 200px;
 }
+.header-input{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
 .header-input input{
-    padding: 15px 50px;
     border-radius: 10px;
     border: none;
+    padding: 15px 50px;
+    box-sizing: border-box;
 }
 .header-icons{
     display: flex;
