@@ -126,6 +126,7 @@ main{
     height: 45px;
     border-radius: 15px;
     font-size: 15px;
+    padding: 10px; 
 }
 .product-description-block .selector fieldset select{
     padding: 5px;
@@ -139,6 +140,7 @@ main{
     font-size: 16px;
     font-weight: lighter;
     word-wrap: break-word;
+    text-align: justify;
 }
 /* checkout section */
 .checkout-container{
@@ -208,6 +210,7 @@ main .container-cards{
     grid-template-columns: repeat(auto-fit, 
     minmax(300px, 1fr));
     gap: 3rem;
+    margin-top: 30px;
 }
 .card{
     height: auto;
