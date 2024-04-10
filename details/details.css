@@ -286,7 +286,7 @@ footer .container{
 .derechos-autor p{
     margin-top: 15px;
 }
-/* responsive */
+/* responsive tablet*/
 
 @media (max-width: 768px){
     header{
@@ -353,5 +353,45 @@ footer .container{
     }
     .footer-description p{
         text-align: center;
+    }
+}
+
+/*responsive celular*/
+@media (max-width: 425px) {
+    .product-checkout-block, .product-description-block {
+        flex: none;
+        max-width: 100%;
+    }
+    .product-images-block {
+        grid-template-rows: 20px 1fr;
+    }
+    .product-description-block .title {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .product-description-block .selector fieldset {
+        font-size: 12px;
+    }
+    .product-description-block .selector fieldset select {
+        font-size: 12px;
+    }
+    .product-description-block .description h1 {
+        font-size: 16px;
+    }
+    .product-description-block .description p {
+        font-size: 12px;
+    }
+    .checkout-container {
+        font-size: 12px;
+    }
+    .sales-block {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 0;
+    }
+    .sales-block h2 {
+        font-size: 16px;
+        grid-column: 1;
+        height: 40px;
     }
 }
