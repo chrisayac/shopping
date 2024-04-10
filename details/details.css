@@ -160,10 +160,12 @@ main .columns-container{
 .checkout-description {
     line-height: 20.4px;
     word-wrap: break-word;
+    text-align: justify;
 }
 .checkout-policy-list {
     list-style-type: none;
     margin-bottom: 30px;
+    text-align: justify;
 }
 .checkout-policy-list li {
     display: flex;
